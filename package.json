@@ -4,7 +4,7 @@
   "description": "Hybrid Express App Template with Gulp, Browserify and React",
   "scripts": {
     "start": "node server/server.js",
-    "test": "jest test/cli/__tests__"
+    "test": "jest tests/cli/__tests__"
   },
   "repository": {
     "type": "git",
