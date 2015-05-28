@@ -1,5 +1,5 @@
 {
-  "name": "express-hybrid-tpl",
+  "name": "express-react-tpl",
   "version": "0.0.1",
   "description": "Hybrid Express App Template with Gulp, Browserify and React",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mika-jongla/express-hybrid-tpl.git"
+    "url": "https://github.com/mika-jongla/express-react-tpl.git"
   },
   "browserify": {
     "transform": [
