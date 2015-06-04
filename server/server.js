@@ -36,9 +36,12 @@ app.listen(config.express.port, config.express.ip, function (error) {
     process.exit(10);
   }
 
-  console.log("Running environment: " + config.env.development 
-    ? "development" 
-    : "production");
+  console.log("Running environment: " + (
+    config.env.development 
+      ? "development" 
+      : "production"
+    )
+  );
   
   console.log("Express listening on http://" +
     config.express.ip + ":" + config.express.port);
